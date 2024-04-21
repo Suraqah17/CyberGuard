@@ -1,0 +1,56 @@
+/* register.css */
+
+.register-container {
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+}
+  
+.register-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('C:/Users/sudee/Desktop/PBL2/cyberguard/src/assets/bg.png');
+    margin-bottom: 0;
+}
+  
+  
+.register-form {
+    background-color: transparent; /* Ensure the background is transparent */
+    border-radius: 10px;
+    max-width: 400px; /* Limit form width */
+}
+  
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.register-form input,
+.register-form select { /* Apply styles to both input and select */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2694B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+  
+.register-form p {
+    margin-top: 10px;
+}
+  
+.mandatory {
+    color: red;
+}
